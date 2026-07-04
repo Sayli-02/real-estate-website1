@@ -1,1 +1,3 @@
-export default function Component() { return <div /> }\n
+export function cn(...classes: (string | undefined | null | false)[]) {
+  return classes.filter(Boolean).join(" ");
+}
