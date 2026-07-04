@@ -1,1 +1,1 @@
-export default function Component() { return <div /> }\n
+export default function Component() { return <div /> }
